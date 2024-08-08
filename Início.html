@@ -25,11 +25,42 @@
         <div>FOTO</div>
         <br>
         <h2>Entrar em Contato</h2>
-        <p>Minhas Redes Sociais:</p>
-        <a href=""><img src="Imagens/logo-instagram.jpg" alt="logo-instagram"></a>
-        <a href=""><img src="Imagens/Logo-zap.jpg" alt="logo-instagram"></a>
-        <a href=""><img src="Imagens/logo-facebook.jpg" alt="logo-instagram"></a>
-        <a href=""><img src="Imagens/logo-twitter.jpg" alt="logo-instagram"></a>
+        <section>
+            <p>Minhas Redes Sociais:</p><br>
+            <a href="#"><img src="Imagens/logo-instagram.jpg" alt="logo-instagram" id="insta"></a>
+            <a href="#"><img src="Imagens/Logo-zap.jpg" alt="logo-instagram"></a>
+            <a href="#"><img src="Imagens/logo-facebook.jpg" alt="logo-instagram"></a>
+            <a href="#"><img src="Imagens/logo-twitter.jpg" alt="logo-instagram"></a>
+        </section>
+        <br>
+
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                <legend>Perguntas para me ajudar</legend>
+                <p>
+                    <label for="sexo">Sexo:</label>
+                    <input type="radio" name="sex" id="sexo">Masculino
+                    <input type="radio" name="sex" id="sexo" checked>Feminino
+                </p>
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Opicional">
+                </p>
+                <p>
+                    <label for="satis">Atendimento</label>
+                    <input type="range" name="satis" id="satis" min="0" max="10" oninput="sat.innerHTML=Number(satis.value)">
+                    <output id="sat">5</output>
+                </p>
+                <p>
+                    <label for="cor">Cor que mais gosto de usar:</label>
+                    <input type="color" name="ncor" id="cor">
+                </p>
+                <p id="botão">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </p>
+            </fieldset>
+        </form>
     </main>
     
 

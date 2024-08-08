@@ -63,16 +63,53 @@ footer a{
     color: var(--cor5);
     text-decoration: none;
 }
-img {
+section img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    display:flex;
+    display:inline-block;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.482);
+    position: relative;
+    left: 50%;
 }
 main a{
     box-shadow: 10px rgb(0, 0, 0);
 }
-main a:hover{
-    
+section a{
+    padding: 10px;
 }
-
+section img:hover{
+    border: 2px solid white;
+    transform: translate(-2px, -2px);
+    height: 55px;
+    width: 55px;
+    transition: transform .7s, border 1s;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.636);
+}
+h2{
+    padding: 10px;
+}
+section p{
+    margin: 5px;
+    margin-bottom: 20px;
+}
+fieldset{
+    background-color:var(--cor2);
+}
+form p {
+    padding: 7px;
+}
+legend{
+    color: white;
+}
+fieldset{
+    border: 2px dashed var(--cor3);
+}
+label{
+    color: var(--cor5);
+}
+#botão{
+    text-align: center;
+    display: inline-block;
+}

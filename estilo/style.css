@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 :root{
     --cor1:#89004f;
     --cor2:#c33b80;
@@ -47,6 +49,8 @@ body{
 
 main p{
     max-width: 600px;
+    text-align: justify;
+    padding: 8px;
 }
 main{
     max-width: 700px;
@@ -90,7 +94,7 @@ main a{
     margin: auto;
 }
 section a{
-    padding: 10px;
+    padding: 40px;
 }
 section img:hover{
     border: 2px solid white;
@@ -128,4 +132,8 @@ label{
 #botão{
     text-align: center;
     display: inline-block;
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
 }

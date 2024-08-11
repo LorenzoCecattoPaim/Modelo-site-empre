@@ -1,1 +1,30 @@
-@charset UTF-8;
+@charset "UTF-8";
+header a{
+    margin: 0px;
+}
+section img{
+    left: 0px;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+}
+
+section a{
+    padding: 20px;
+}
+#loja{
+    display: none;
+    width: 250px;
+    height: 240px;
+}
+#imgdei{
+    content: url(../Imagens/Loja.png);
+}
+#imgdei{
+    width: 300px;
+    display: inline-block;
+    margin: auto;
+    padding: 50px;
+    padding-left: 100px;
+}
+

@@ -18,7 +18,9 @@ section img{
     width: 38px;
     height: 38px;
 }
-
+main{
+    margin-top: 0px;
+}
 section a{
     padding: 20px;
 }

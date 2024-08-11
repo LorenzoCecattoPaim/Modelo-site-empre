@@ -1,14 +1,16 @@
 @charset "UTF-8";
 
-
-
 header{
     margin-bottom : 10px ;
 }
 header a{
     margin: 0px;
     padding: 10px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px; 
+}
+
+#home{
+    margin-left: 50px;
 }
 section img{
     left: 0px;

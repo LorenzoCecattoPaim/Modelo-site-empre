@@ -44,7 +44,7 @@ header a{
 }
 body{
     background-color: var(--cor3);
-    width: 100vw;
+    width: 100dvw;
     height: 100vh;
 }
 
@@ -52,9 +52,6 @@ main p{
     max-width: 600px;
     text-align: justify;
     padding: 8px;
-}
-main{
-    
 }
 #loja{
     width: 250px;
@@ -86,8 +83,7 @@ section img {
     display:inline-block;
     margin-bottom: 10px;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.482);
-    position: relative;
-    left: 50%;
+
 }
 main a{
     box-shadow: 10px rgb(0, 0, 0);
